@@ -19,5 +19,9 @@ public partial class Employee
 
     public string? Login { get; set; }
 
+    public string? Pass { get; set; }
+
+    public string? Rank { get; set; }
+
     public virtual ICollection<Node> Nodes { get; set; } = new List<Node>();
 }

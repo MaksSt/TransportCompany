@@ -221,12 +221,18 @@ public partial class TransportdbContext : DbContext
             entity.Property(e => e.Name)
                 .HasMaxLength(45)
                 .HasColumnName("name");
+            entity.Property(e => e.Pass)
+                .HasMaxLength(100)
+                .HasColumnName("pass");
             entity.Property(e => e.Patronymic)
                 .HasMaxLength(45)
                 .HasColumnName("patronymic");
             entity.Property(e => e.Post)
                 .HasMaxLength(45)
                 .HasColumnName("post");
+            entity.Property(e => e.Rank)
+                .HasMaxLength(100)
+                .HasColumnName("rank");
             entity.Property(e => e.Surname)
                 .HasMaxLength(45)
                 .HasColumnName("surname");
