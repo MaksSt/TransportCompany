@@ -5,7 +5,6 @@
 }
 
 <section class="">
-    @Html.AntiForgeryToken()
     <form method="post">
     <div class="container-fluid">
         <div class="row d-flex justify-content-center">
@@ -15,11 +14,11 @@
                         <div class="mb-md-5 mt-md-4 pb-5">
                             <h2 class="fw-bold mb-2 text-uppercase">Вход</h2>
                             <div class="form-outline form-white mb-4">
-                                <input type="text" id="Login" class="form-control form-control-lg" />
+                                <input type="text" id="Login" name="Login" class="form-control form-control-lg" />
                                 <label class="form-label" for="Login">Логин</label>
                             </div>
                             <div class="form-outline form-white mb-4">
-                                <input type="password" id="Password" class="form-control form-control-lg" />
+                                    <input type="password" id="Password" name="Password" class="form-control form-control-lg" />
                                 <label class="form-label" for="Password">Пароль</label>
                             </div>
                             <button class="btn btn-outline-light btn-lg px-5" type="submit" id="loginbtn">Вход</button>

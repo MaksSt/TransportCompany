@@ -14,8 +14,12 @@ namespace TransportCompany
 
             // Add services to the container.
             builder.Services.AddRazorPages();
+            builder.Services.AddControllers();
             builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie(options => options.LoginPath = "/Auth");
+                .AddCookie(options =>
+                {
+                    options.LoginPath = "/Auth";
+                });
             builder.Services.AddAuthorization();
             var app = builder.Build();
 
@@ -24,11 +28,12 @@ namespace TransportCompany
             {
                 app.UseExceptionHandler("/Error");
             }
+            app.MapRazorPages();
+            app.MapControllers();
             app.UseStaticFiles();
-
+            
             app.UseRouting();
 
-            app.MapRazorPages();
             app.UseAuthentication();
             app.UseAuthorization();
             app.Run();
