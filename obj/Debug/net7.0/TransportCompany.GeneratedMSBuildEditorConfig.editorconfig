@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = A:\repos\TransportCompany
 build_property._RazorSourceGeneratorDebug = 
 
+[A:/repos/TransportCompany/Pages/Auth.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [A:/repos/TransportCompany/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -24,8 +28,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/repos/TransportCompany/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+[A:/repos/TransportCompany/Pages/Orders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [A:/repos/TransportCompany/Pages/Shared/_ValidationScriptsPartial.cshtml]

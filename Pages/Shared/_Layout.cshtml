@@ -13,14 +13,14 @@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between flex-column">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark m-1" asp-area="" asp-page="/Index">Вход</a>
+                            <a class="nav-link text-dark m-1" id="authhref" asp-area="" asp-page="/Auth">Вход</a>
                         </li>
                         <a class="navbar-brand m-1" asp-area="" asp-page="/Index">TransportCompany</a>
                         <li class="nav-item">
-                            <a class="nav-link text-dark m-1" asp-area="" asp-page="/Privacy">Заказы</a>
+                            <a class="nav-link text-dark m-1" asp-area="" asp-page="/Orders">Заказы</a>
                         </li>
                     </ul>
                 </div>
@@ -35,7 +35,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2023 - TransportCompany - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2023 - TransportCompany 
         </div>
     </footer>
 

@@ -1,0 +1,36 @@
+﻿@page
+@model TransportCompany.Pages.OrdersModel
+@{
+    ViewData["Title"] = "Orders";
+}
+
+<table class="table caption-top">
+    <tr>
+        <th>Id</th>
+        <th>Surname</th>
+        <th>Name</th>
+        <th>Mail</th>
+        <th>Login</th>
+        <th>Pass</th>
+        <th>Rank</th>
+    </tr>
+
+    @foreach (var item in Model.UsersData)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Surname</td>
+            <td>@item.Name</td>
+            <td>@item.Post</td>
+            <td>@item.Login</td>
+            <td>@item.Pass</td>
+            <td>@item.Rank</td>
+        </tr>
+    }
+</table>
+
+<style>
+    .table-users {
+        font-size: 20px;
+    }
+</style>

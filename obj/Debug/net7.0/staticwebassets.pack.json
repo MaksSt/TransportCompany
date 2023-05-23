@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "A:\\repos\\TransportCompany\\wwwroot\\img\\mmm.jpg",
+      "PackagePath": "staticwebassets\\img\\mmm.jpg"
+    },
+    {
       "Id": "A:\\repos\\TransportCompany\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
